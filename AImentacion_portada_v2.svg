@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 1754" role="img" aria-labelledby="title desc">
+  <title>AImentacion portada v2</title>
+  <desc>Illustration of an AI robot managing fresh produce in a warehouse, with a cleaner composition for cover use.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3efe3"/>
+      <stop offset="55%" stop-color="#ece4d2"/>
+      <stop offset="100%" stop-color="#e3d7c2"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d2d46"/>
+      <stop offset="100%" stop-color="#184b67"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9f2ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#9bc7de" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cfb48c"/>
+      <stop offset="50%" stop-color="#d5bc95"/>
+      <stop offset="100%" stop-color="#c9ad84"/>
+    </linearGradient>
+    <linearGradient id="crate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bf7f38"/>
+      <stop offset="100%" stop-color="#915e28"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7fbfd"/>
+      <stop offset="45%" stop-color="#d8e3ea"/>
+      <stop offset="100%" stop-color="#93a9b8"/>
+    </linearGradient>
+    <linearGradient id="darkMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#49616f"/>
+      <stop offset="100%" stop-color="#1d3444"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8ee0ff" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#3bb9e7" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#3bb9e7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3b2b16" flood-opacity="0.18"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#102433" flood-opacity="0.18"/>
+    </filter>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#ffffff" opacity="0.16"/>
+    </pattern>
+    <g id="apple">
+      <circle cx="0" cy="0" r="21" fill="#d8533f"/>
+      <ellipse cx="-10" cy="-2" rx="6" ry="7" fill="#ef927e" opacity="0.6"/>
+      <rect x="-2" y="-28" width="4" height="12" rx="2" fill="#6b4a25"/>
+      <path d="M2 -22 C12 -34, 25 -32, 30 -20 C18 -18, 10 -16, 2 -22 Z" fill="#4d9851"/>
+    </g>
+    <g id="orange">
+      <circle cx="0" cy="0" r="19" fill="#ee8b2f"/>
+      <circle cx="-5" cy="-5" r="3" fill="#f6b068" opacity="0.6"/>
+      <path d="M-2 -19 C3 -27, 12 -25, 15 -18 C8 -16, 4 -15, -2 -19 Z" fill="#4d9851"/>
+    </g>
+    <g id="lemon">
+      <ellipse cx="0" cy="0" rx="23" ry="17" fill="#f1d553"/>
+      <ellipse cx="-8" cy="-3" rx="5" ry="5" fill="#fbec95" opacity="0.65"/>
+    </g>
+    <g id="tomato">
+      <circle cx="0" cy="0" r="16" fill="#db4e44"/>
+      <path d="M0 -18 L4 -11 L13 -9 L6 -2 L8 8 L0 3 L-8 8 L-6 -2 L-13 -9 L-4 -11 Z" fill="#4c944a"/>
+    </g>
+    <g id="leafy">
+      <path d="M0 26 C-18 16,-20 -12,0 -32 C20 -12,18 16,0 26 Z" fill="#6cba62"/>
+      <path d="M0 22 C-8 12,-8 -6,0 -22 C8 -6,8 12,0 22 Z" fill="#90d77e"/>
+      <rect x="-2" y="20" width="4" height="14" rx="2" fill="#4d7f3e"/>
+    </g>
+    <g id="carrot">
+      <path d="M0 -18 C10 0,10 32,0 48 C-10 32,-10 0,0 -18 Z" fill="#eb8030"/>
+      <path d="M0 -24 C-16 -36,-16 -18,0 -10 C16 -18,16 -36,0 -24 Z" fill="#58a859"/>
+    </g>
+  </defs>
+
+  <rect width="1240" height="1754" fill="url(#bg)"/>
+  <rect width="1240" height="1754" fill="url(#dots)"/>
+
+  <g opacity="0.65">
+    <circle cx="220" cy="260" r="170" fill="#f4e5bf"/>
+    <circle cx="1030" cy="320" r="220" fill="#ead7b5"/>
+  </g>
+
+  <rect x="0" y="1248" width="1240" height="506" fill="url(#floor)"/>
+  <path d="M0 1290 C230 1230, 450 1238, 620 1284 C840 1340, 1030 1332, 1240 1270 L1240 1754 L0 1754 Z" fill="#d8c199"/>
+  <path d="M0 1410 C200 1360, 420 1364, 640 1420 C850 1475, 1040 1472, 1240 1435" fill="none" stroke="#b9986c" stroke-width="4" opacity="0.45"/>
+  <path d="M0 1520 C170 1485, 380 1490, 620 1540 C860 1590, 1035 1580, 1240 1548" fill="none" stroke="#b9986c" stroke-width="4" opacity="0.45"/>
+
+  <g opacity="0.24">
+    <path d="M114 250 H1128" stroke="#ffffff" stroke-width="3"/>
+    <path d="M114 300 H1128" stroke="#ffffff" stroke-width="3"/>
+    <path d="M114 1166 H1128" stroke="#ffffff" stroke-width="3"/>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="116" y="336" width="1008" height="780" rx="26" fill="#f8f3e8" stroke="#d8cab1" stroke-width="5"/>
+    <rect x="160" y="388" width="920" height="82" rx="18" fill="#dde4e7"/>
+    <rect x="156" y="470" width="14" height="646" fill="#97a1a6"/>
+    <rect x="1070" y="470" width="14" height="646" fill="#97a1a6"/>
+    <rect x="160" y="630" width="920" height="16" fill="#97a1a6"/>
+    <rect x="160" y="794" width="920" height="16" fill="#97a1a6"/>
+    <rect x="160" y="958" width="920" height="16" fill="#97a1a6"/>
+    <path d="M308 388 L308 1116" stroke="#9daab0" stroke-width="12"/>
+    <path d="M540 388 L540 1116" stroke="#9daab0" stroke-width="12"/>
+    <path d="M772 388 L772 1116" stroke="#9daab0" stroke-width="12"/>
+    <path d="M1004 388 L1004 1116" stroke="#9daab0" stroke-width="12"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="166" y="520" width="120" height="74" rx="8" fill="url(#crate)"/>
+    <rect x="178" y="530" width="96" height="12" rx="5" fill="#d29c56" opacity="0.55"/>
+    <use href="#leafy" transform="translate(194 548) scale(0.9)"/>
+    <use href="#leafy" transform="translate(226 548) scale(0.9)"/>
+    <use href="#leafy" transform="translate(258 548) scale(0.9)"/>
+
+    <rect x="348" y="516" width="154" height="82" rx="10" fill="url(#crate)"/>
+    <use href="#orange" transform="translate(378 558)"/>
+    <use href="#orange" transform="translate(422 552)"/>
+    <use href="#orange" transform="translate(466 560)"/>
+    <use href="#orange" transform="translate(398 586) scale(0.95)"/>
+    <use href="#orange" transform="translate(444 586) scale(0.95)"/>
+
+    <rect x="590" y="518" width="148" height="80" rx="10" fill="url(#crate)"/>
+    <use href="#apple" transform="translate(622 558) scale(0.9)"/>
+    <use href="#apple" transform="translate(672 550) scale(0.9)"/>
+    <use href="#apple" transform="translate(708 580) scale(0.82)"/>
+
+    <rect x="812" y="518" width="180" height="82" rx="10" fill="url(#crate)"/>
+    <use href="#carrot" transform="translate(852 550) scale(0.72)"/>
+    <use href="#carrot" transform="translate(900 548) scale(0.72)"/>
+    <use href="#carrot" transform="translate(950 550) scale(0.72)"/>
+
+    <rect x="190" y="684" width="148" height="82" rx="10" fill="url(#crate)"/>
+    <use href="#lemon" transform="translate(226 724) scale(0.78)"/>
+    <use href="#lemon" transform="translate(270 716) scale(0.78)"/>
+    <use href="#lemon" transform="translate(312 726) scale(0.78)"/>
+
+    <rect x="382" y="684" width="180" height="82" rx="10" fill="url(#crate)"/>
+    <use href="#tomato" transform="translate(422 724)"/>
+    <use href="#tomato" transform="translate(472 716)"/>
+    <use href="#tomato" transform="translate(522 724)"/>
+
+    <rect x="620" y="682" width="160" height="84" rx="10" fill="url(#crate)"/>
+    <use href="#leafy" transform="translate(658 720) scale(0.88)"/>
+    <use href="#leafy" transform="translate(706 720) scale(0.88)"/>
+    <use href="#leafy" transform="translate(750 720) scale(0.88)"/>
+
+    <rect x="860" y="684" width="138" height="82" rx="10" fill="url(#crate)"/>
+    <use href="#apple" transform="translate(894 724) scale(0.82)"/>
+    <use href="#apple" transform="translate(944 718) scale(0.82)"/>
+    <use href="#apple" transform="translate(972 742) scale(0.72)"/>
+  </g>
+
+  <g transform="translate(724 198)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="366" height="252" rx="28" fill="url(#panel)"/>
+    <rect x="18" y="18" width="330" height="216" rx="18" fill="none" stroke="#88d9ff" stroke-width="3" opacity="0.45"/>
+    <text x="34" y="52" fill="#dff7ff" font-family="Helvetica Neue, Arial, sans-serif" font-size="27" font-weight="700">Panel IA</text>
+    <text x="34" y="90" fill="#98d8f1" font-family="Helvetica Neue, Arial, sans-serif" font-size="18">Stock fresco</text>
+    <rect x="34" y="104" width="296" height="18" rx="9" fill="#29556d"/>
+    <rect x="34" y="104" width="214" height="18" rx="9" fill="#80e1a9"/>
+    <text x="34" y="154" fill="#98d8f1" font-family="Helvetica Neue, Arial, sans-serif" font-size="18">Perecederos prioritarios</text>
+    <rect x="34" y="166" width="84" height="30" rx="15" fill="#f39a52"/>
+    <rect x="126" y="166" width="76" height="30" rx="15" fill="#f4c85f"/>
+    <rect x="210" y="166" width="98" height="30" rx="15" fill="#8fd57f"/>
+    <text x="34" y="222" fill="#98d8f1" font-family="Helvetica Neue, Arial, sans-serif" font-size="18">Recogidas optimizadas</text>
+    <path d="M40 230 C74 202, 98 204, 122 218 C156 236, 190 250, 226 236 C262 222, 290 194, 330 200" fill="none" stroke="#7ce5ff" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="122" cy="218" r="8" fill="#7ce5ff"/>
+    <circle cx="226" cy="236" r="8" fill="#7ce5ff"/>
+    <circle cx="330" cy="200" r="8" fill="#7ce5ff"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <ellipse cx="590" cy="1285" rx="190" ry="42" fill="#7e6845" opacity="0.16"/>
+    <ellipse cx="306" cy="1338" rx="118" ry="30" fill="#7e6845" opacity="0.14"/>
+  </g>
+
+  <g transform="translate(364 870)">
+    <circle cx="236" cy="110" r="220" fill="url(#glow)"/>
+  </g>
+
+  <g transform="translate(336 776)" filter="url(#shadow)">
+    <rect x="378" y="170" width="150" height="140" rx="50" fill="url(#metal)"/>
+    <circle cx="452" cy="122" r="82" fill="url(#metal)"/>
+    <circle cx="426" cy="112" r="12" fill="#0b4665"/>
+    <circle cx="478" cy="112" r="12" fill="#0b4665"/>
+    <path d="M426 148 C442 162, 462 162, 478 148" fill="none" stroke="#1c617c" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="452" cy="112" r="122" fill="none" stroke="#8edcff" stroke-width="4" opacity="0.45"/>
+    <circle cx="452" cy="112" r="14" fill="#7cdeff"/>
+    <rect x="414" y="34" width="76" height="26" rx="13" fill="#3d6779"/>
+    <rect x="445" y="-8" width="14" height="44" rx="7" fill="#4d7182"/>
+    <circle cx="452" cy="-18" r="18" fill="#7cdeff"/>
+    <rect x="290" y="292" width="324" height="240" rx="72" fill="url(#metal)"/>
+    <rect x="344" y="342" width="216" height="116" rx="28" fill="#f6fafc"/>
+    <path d="M344 398 H560" stroke="#c4d6df" stroke-width="6"/>
+    <path d="M392 334 L392 260 C392 206, 414 178, 454 178 C494 178, 516 206, 516 260 L516 334" fill="none" stroke="#b9cad3" stroke-width="16" stroke-linecap="round"/>
+    <path d="M282 322 C220 316, 176 330, 146 364 C126 386, 116 410, 114 438" fill="none" stroke="#adc3cf" stroke-width="18" stroke-linecap="round"/>
+    <path d="M628 322 C690 316, 734 330, 764 364 C784 386, 794 410, 796 438" fill="none" stroke="#adc3cf" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="104" cy="468" r="54" fill="url(#metal)"/>
+    <circle cx="806" cy="468" r="54" fill="url(#metal)"/>
+    <circle cx="104" cy="468" r="18" fill="#7cdeff"/>
+    <circle cx="806" cy="468" r="18" fill="#7cdeff"/>
+
+    <rect x="394" y="540" width="116" height="154" rx="40" fill="#dbe7ed"/>
+    <path d="M444 692 L430 868" fill="none" stroke="#d8e4ea" stroke-width="24" stroke-linecap="round"/>
+    <path d="M462 692 L478 868" fill="none" stroke="#d8e4ea" stroke-width="24" stroke-linecap="round"/>
+    <path d="M430 868 L372 1020" fill="none" stroke="#8fa5b3" stroke-width="24" stroke-linecap="round"/>
+    <path d="M478 868 L534 1020" fill="none" stroke="#8fa5b3" stroke-width="24" stroke-linecap="round"/>
+    <rect x="334" y="1008" width="74" height="26" rx="13" fill="#2e4d5e"/>
+    <rect x="500" y="1008" width="74" height="26" rx="13" fill="#2e4d5e"/>
+  </g>
+
+  <g transform="translate(198 1124)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="238" height="160" rx="18" fill="#f7f1e3"/>
+    <rect x="18" y="18" width="202" height="124" rx="12" fill="#fffdfa" stroke="#e1d3bb" stroke-width="3"/>
+    <text x="30" y="50" fill="#27455a" font-family="Helvetica Neue, Arial, sans-serif" font-size="22" font-weight="700">Lote prioritario</text>
+    <text x="30" y="82" fill="#5a7280" font-family="Helvetica Neue, Arial, sans-serif" font-size="17">Fruta y verdura</text>
+    <text x="30" y="112" fill="#5a7280" font-family="Helvetica Neue, Arial, sans-serif" font-size="17">Salida recomendada: hoy</text>
+    <rect x="30" y="122" width="132" height="10" rx="5" fill="#efc86e"/>
+    <rect x="30" y="122" width="104" height="10" rx="5" fill="#63bf76"/>
+  </g>
+</svg>

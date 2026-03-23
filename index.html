@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AImentacion | Prototipo Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">A</span>
+        <span class="brand-copy">
+          <strong>AImentacion</strong>
+          <span>IA social para bancos de alimentos</span>
+        </span>
+      </a>
+
+      <nav class="nav">
+        <a href="#problema">Problema</a>
+        <a href="#prototipo">Prototipo</a>
+        <a href="#agentes">Agentes</a>
+        <a href="#piloto">Piloto</a>
+      </nav>
+
+      <a class="nav-cta" href="#donantes">Portal donante</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow">Prototipo funcional de plataforma</p>
+          <h1>Anticipar la demanda, aprovechar excedentes y coordinar recogidas con IA.</h1>
+          <p class="hero-intro">
+            AImentacion centraliza inventario, predicción, alertas de perecederos y colaboración con empresas
+            donantes para que las entidades sociales tomen mejores decisiones con menos desperdicio.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#prototipo">Ver demo operativa</a>
+            <a class="button secondary" href="#piloto">Explorar piloto</a>
+          </div>
+
+          <ul class="hero-badges">
+            <li>Predicción semanal por zona</li>
+            <li>Recogidas optimizadas</li>
+            <li>Alertas de caducidad</li>
+            <li>Portal para supermercados, hoteles y restaurantes</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-card hero-card-main">
+            <div class="card-header">
+              <span>Vista global</span>
+              <span class="status-pill">PoC activa</span>
+            </div>
+            <div class="hero-kpis">
+              <article>
+                <strong>92%</strong>
+                <span>cobertura prevista</span>
+              </article>
+              <article>
+                <strong>+31</strong>
+                <span>lotes prioritarios</span>
+              </article>
+              <article>
+                <strong>-18%</strong>
+                <span>riesgo de merma</span>
+              </article>
+            </div>
+            <img class="hero-poster" src="./AImentacion_portada_v2.svg" alt="Ilustración de AImentacion">
+          </div>
+
+          <div class="hero-card hero-card-float">
+            <span class="float-title">Agente de perecederos</span>
+            <p>Recomienda salida inmediata de fruta y verdura con fecha cercana en 2 entidades piloto.</p>
+            <div class="mini-meter">
+              <div class="mini-meter-fill"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="problem section" id="problema">
+        <div class="section-heading">
+          <p class="eyebrow">Por qué importa</p>
+          <h2>El cuello de botella no es solo conseguir alimentos, sino decidir bien y a tiempo.</h2>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card highlight">
+            <span class="metric">1,05 mil millones</span>
+            <h3>de toneladas desperdiciadas en 2022</h3>
+            <p>El problema alimentario también es logístico: exceso en un punto, escasez en otro y poco margen para reaccionar con perecederos.</p>
+          </article>
+
+          <article class="problem-card">
+            <span class="metric">115.563 t</span>
+            <h3>distribuidas por la red FESBAL en 2024</h3>
+            <p>La escala ya existe. Lo que falta es una capa de inteligencia operativa para priorizar stock, rutas y necesidades semanales.</p>
+          </article>
+
+          <article class="problem-card">
+            <span class="metric">1.036.890</span>
+            <h3>personas atendidas en 2024</h3>
+            <p>Pequeñas mejoras de previsión y coordinación pueden traducirse en más cobertura y menos desperdicio.</p>
+          </article>
+        </div>
+
+        <div class="flow-strip">
+          <div>Donantes</div>
+          <div>Inventario</div>
+          <div>Predicción</div>
+          <div>Prioridad</div>
+          <div>Reparto</div>
+          <div>Impacto</div>
+        </div>
+      </section>
+
+      <section class="prototype section" id="prototipo">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Demo operativa</p>
+            <h2>La misma plataforma cambia según el perfil de la entidad piloto.</h2>
+          </div>
+          <p class="section-note">
+            Usa el selector para simular cómo varían las predicciones, las alertas y las recomendaciones logísticas
+            entre un entorno urbano, mixto y rural.
+          </p>
+        </div>
+
+        <div class="entity-switcher" aria-label="Selector de entidad piloto">
+          <button class="switch active" data-entity="urbana">Entidad urbana</button>
+          <button class="switch" data-entity="mixta">Entidad semiurbana</button>
+          <button class="switch" data-entity="rural">Cobertura dispersa</button>
+        </div>
+
+        <div class="dashboard-layout">
+          <section class="dashboard-card dashboard-summary">
+            <div class="card-header">
+              <span id="entity-name">Centro urbano</span>
+              <span class="soft-pill" id="entity-badge">Alta rotación</span>
+            </div>
+
+            <div class="summary-kpis">
+              <article>
+                <span class="kpi-label">Demanda próxima semana</span>
+                <strong id="demand-value">420 lotes</strong>
+                <small id="demand-trend">+12% frente a la media</small>
+              </article>
+              <article>
+                <span class="kpi-label">Recogidas sugeridas</span>
+                <strong id="pickup-value">8 rutas</strong>
+                <small id="pickup-trend">3 prioritarias hoy</small>
+              </article>
+              <article>
+                <span class="kpi-label">Riesgo de merma</span>
+                <strong id="waste-value">14%</strong>
+                <small id="waste-trend">baja si se adelanta el reparto</small>
+              </article>
+            </div>
+
+            <div class="chart-card">
+              <div class="chart-header">
+                <h3>Predicción por categoría</h3>
+                <span id="model-tag">Modelo tabular + reglas</span>
+              </div>
+              <div class="bars" id="forecast-bars" aria-hidden="true"></div>
+            </div>
+          </section>
+
+          <section class="dashboard-card dashboard-alerts">
+            <div class="card-header">
+              <span>Centro de alertas</span>
+              <span class="soft-pill warning">Tiempo sensible</span>
+            </div>
+
+            <ul class="alert-list" id="alert-list"></ul>
+          </section>
+
+          <section class="dashboard-card dashboard-routes">
+            <div class="card-header">
+              <span>Recomendación logística</span>
+              <span class="soft-pill success">Optimización diaria</span>
+            </div>
+            <ol class="route-list" id="route-list"></ol>
+          </section>
+
+          <section class="dashboard-card dashboard-donor" id="donantes">
+            <div class="card-header">
+              <span>Portal para empresas colaboradoras</span>
+              <span class="soft-pill">Alta rápida</span>
+            </div>
+
+            <form class="donor-form">
+              <label>
+                Entidad donante
+                <input type="text" value="Supermercado Barrio Norte" aria-label="Entidad donante">
+              </label>
+              <label>
+                Tipo de excedente
+                <select aria-label="Tipo de excedente">
+                  <option>Fruta y verdura fresca</option>
+                  <option>Panadería</option>
+                  <option>Lácteos</option>
+                </select>
+              </label>
+              <label>
+                Ventana de recogida
+                <input type="text" value="Hoy · 17:30 - 19:00" aria-label="Ventana de recogida">
+              </label>
+              <button type="button" class="button primary small">Registrar donación</button>
+            </form>
+          </section>
+
+          <section class="dashboard-card dashboard-chat">
+            <div class="card-header">
+              <span>Asistente de higiene alimentaria</span>
+              <span class="soft-pill">Apoyo informativo</span>
+            </div>
+
+            <div class="chat-shell">
+              <div class="chat-message user">¿Qué hago con yogures dos días después de la fecha de consumo preferente?</div>
+              <div class="chat-message bot">
+                Revisa integridad del envase, cadena de frío y protocolo interno. Si hay dudas, el lote se bloquea para revisión.
+              </div>
+              <div class="chat-note">Este asistente orienta, pero no sustituye criterios sanitarios oficiales.</div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="agents section" id="agentes">
+        <div class="section-heading">
+          <p class="eyebrow">Arquitectura modular</p>
+          <h2>Cinco agentes para repartir mejor la carga operativa.</h2>
+        </div>
+
+        <div class="agents-grid">
+          <article class="agent-card">
+            <h3>Inventario</h3>
+            <p>Sincroniza stock, entradas y salidas para evitar decisiones sobre datos obsoletos.</p>
+          </article>
+          <article class="agent-card">
+            <h3>Perecederos</h3>
+            <p>Detecta lotes sensibles y eleva prioridad cuando la ventana útil se estrecha.</p>
+          </article>
+          <article class="agent-card">
+            <h3>Logística</h3>
+            <p>Ordena recogidas y reparto según necesidad, disponibilidad y proximidad.</p>
+          </article>
+          <article class="agent-card">
+            <h3>Aprovechamiento</h3>
+            <p>Propone recetas y destinos alternativos para alargar el valor social del excedente.</p>
+          </article>
+          <article class="agent-card">
+            <h3>Asistente web</h3>
+            <p>Responde dudas operativas y de conservación para personal, donantes y usuarios.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="pilot section" id="piloto">
+        <div class="section-heading split">
+          <div>
+            <p class="eyebrow">Escalado realista</p>
+            <h2>Un piloto económico, pero suficientemente amplio para medir impacto.</h2>
+          </div>
+          <p class="section-note">La PoC se imagina con 2 o 3 entidades para validar generalización, utilidad logística y reducción de mermas antes de escalar.</p>
+        </div>
+
+        <div class="pilot-layout">
+          <div class="pilot-timeline">
+            <article>
+              <span>Mes 1</span>
+              <p>Análisis, requisitos y diseño del piloto.</p>
+            </article>
+            <article>
+              <span>Mes 2</span>
+              <p>Limpieza de datos, taxonomía y cuadro base de inventario.</p>
+            </article>
+            <article>
+              <span>Mes 3</span>
+              <p>Modelo predictivo y reglas de priorización.</p>
+            </article>
+            <article>
+              <span>Mes 4</span>
+              <p>Portal web, agentes principales y pruebas internas.</p>
+            </article>
+            <article>
+              <span>Mes 5-6</span>
+              <p>Despliegue piloto, medición de resultados y ajuste del sistema.</p>
+            </article>
+          </div>
+
+          <div class="impact-card">
+            <h3>Indicadores que este prototipo quiere hacer visibles</h3>
+            <ul>
+              <li>mejora de cobertura frente a demanda estimada</li>
+              <li>reducción de producto perecedero desechado</li>
+              <li>menos tiempo invertido en coordinación manual</li>
+              <li>mejor captación y trazabilidad de donaciones empresariales</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
